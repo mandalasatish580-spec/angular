@@ -8,6 +8,8 @@ import { StringComponent } from './string/string.component';
 import { PropertyComponent } from './property/property.component';
 import { EventComponent } from './event/event.component';
 import { CounteventComponent } from './countevent/countevent.component';
+import { TwowaydatabindingComponent } from './twowaydatabinding/twowaydatabinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,11 @@ import { CounteventComponent } from './countevent/countevent.component';
     StringComponent,
     PropertyComponent,
     EventComponent,
-    CounteventComponent
+    CounteventComponent,
+    TwowaydatabindingComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],
