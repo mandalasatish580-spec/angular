@@ -10,6 +10,11 @@ import { EventComponent } from './event/event.component';
 import { CounteventComponent } from './countevent/countevent.component';
 import { TwowaydatabindingComponent } from './twowaydatabinding/twowaydatabinding.component';
 import { FormsModule } from '@angular/forms';
+import { NpifdirectivesComponent } from './npifdirectives/npifdirectives.component';
+import { IfelseDirComponent } from './ifelse-dir/ifelse-dir.component';
+import { SwitchDirComponent } from './switch-dir/switch-dir.component';
+import { ForDirComponent } from './for-dir/for-dir.component';
+import { ArrayobjComponent } from './arrayobj/arrayobj.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { FormsModule } from '@angular/forms';
     PropertyComponent,
     EventComponent,
     CounteventComponent,
-    TwowaydatabindingComponent
+    TwowaydatabindingComponent,
+    NpifdirectivesComponent,
+    IfelseDirComponent,
+    SwitchDirComponent,
+    ForDirComponent,
+    ArrayobjComponent
   ],
   imports: [
     FormsModule,

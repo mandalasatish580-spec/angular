@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let p of products">
+            <div class="card">
+                <div class="card-header">
+                    <h1>{{p.username}}</h1>
+                    <p>
+                        {{p.email}}
+                    </p>
+                </div>
+                <h2>{{p.address.suite}}</h2>
+            </div>
+            <div>
+                     <button class="btn btn-primary"> cancel</button>
+            </div>
+            <div>
+                <button class="btn btn-primary"> Register</button>
+            </div>
+        </div>
+    </div>
+
+</div>

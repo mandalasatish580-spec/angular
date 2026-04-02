@@ -1,0 +1,6 @@
+<div *ngIf="num%2==0;else oddnum">
+    <h1>{{num}}is even</h1>
+</div>
+<ng-template #oddnum>
+<h1>{{num}}is odd</h1>
+</ng-template>
