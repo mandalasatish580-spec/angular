@@ -15,6 +15,10 @@ import { IfelseDirComponent } from './ifelse-dir/ifelse-dir.component';
 import { SwitchDirComponent } from './switch-dir/switch-dir.component';
 import { ForDirComponent } from './for-dir/for-dir.component';
 import { ArrayobjComponent } from './arrayobj/arrayobj.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
+import { PipesPipe } from './pipes.pipe';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { ArrayobjComponent } from './arrayobj/arrayobj.component';
     IfelseDirComponent,
     SwitchDirComponent,
     ForDirComponent,
-    ArrayobjComponent
+    ArrayobjComponent,
+    NgStyleComponent,
+    NgClassComponent,
+    PipesPipe,
+    PipesComponent
   ],
   imports: [
     FormsModule,
