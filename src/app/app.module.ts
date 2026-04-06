@@ -19,6 +19,12 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { PipesPipe } from './pipes.pipe';
 import { PipesComponent } from './pipes/pipes.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
+import { ServiceComponent } from './service/service.component';
+import { GallaryComponent } from './gallary/gallary.component';
+import { ContactComponent } from './contact/contact.component';
+import { AaboutComponent } from './aabout/aabout.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +43,13 @@ import { PipesComponent } from './pipes/pipes.component';
     NgStyleComponent,
     NgClassComponent,
     PipesPipe,
-    PipesComponent
+    PipesComponent,
+    NavbarComponent,
+    HomeComponent,
+    ServiceComponent,
+    GallaryComponent,
+    ContactComponent,
+    AaboutComponent
   ],
   imports: [
     FormsModule,

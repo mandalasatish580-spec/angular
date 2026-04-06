@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class PipesPipe implements PipeTransform {
 
-  transform(value: any, ...args: any[]): any {
-    return value*value;
+  transform(value: any,pov:any): any {
+    return value**pov;
   }
 
 }
